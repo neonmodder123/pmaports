@@ -22,7 +22,7 @@ deviceinfo_screen_height="2400"
 deviceinfo_getty="ttyMSM0;115200"
 
 # Bootloader related
-deviceinfo_flash_method="fastboot"
+deviceinfo_flash_method="none"
 
 deviceinfo_generate_bootimg="true"
 deviceinfo_bootimg_qcdt="false"
@@ -38,3 +38,8 @@ deviceinfo_header_version="2"
 deviceinfo_rootfs_image_sector_size="4096"
 deviceinfo_super_partitions="/dev/sda6 /dev/sda6"
 deviceinfo_flash_sparse="true"
+
+# Stowaway
+deviceinfo_kernel_cmdline_append="pmos.stowaway pmos_root=/dev/disk/by-partlabel/ubtouch_data"
+
+deviceinfo_drm="true"
