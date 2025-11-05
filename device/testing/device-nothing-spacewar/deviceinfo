@@ -42,5 +42,4 @@ deviceinfo_flash_sparse="true"
 # Stowaway
 deviceinfo_kernel_cmdline_append="pmos.stowaway pmos_root=/dev/disk/by-partlabel/ubtouch_data"
 
-
 deviceinfo_drm="true"
